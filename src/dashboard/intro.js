@@ -1,10 +1,9 @@
 import React from "react";
-import { Jumbotron } from "reactstrap";
 
 export default function Intro({ stats }) {
   return (
     <div>
-      <Jumbotron>
+      <div className="jumbotron">
         <div className="container text-center">
           <h1 className="display-3">Geocaching Status</h1>
           <p className="lead">
@@ -18,7 +17,7 @@ export default function Intro({ stats }) {
             </p>
           )}
         </div>
-      </Jumbotron>
+      </div>
     </div>
   );
 }

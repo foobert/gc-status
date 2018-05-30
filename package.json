@@ -24,7 +24,6 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
     "clean-webpack-plugin": "^0.1.19",
     "css-loader": "^0.28.11",
     "eslint": "^4.19.1",
@@ -40,14 +39,12 @@
   },
   "dependencies": {
     "apollo-boost": "^0.1.6",
-    "babel-polyfill": "^6.26.0",
     "bootstrap": "^4.1.1",
     "graphql": "^0.13.2",
     "graphql-tag": "^2.9.2",
     "moment": "^2.22.1",
     "react": "^16.4.0",
     "react-apollo": "^2.1.4",
-    "react-dom": "^16.4.0",
-    "reactstrap": "^6.0.1"
+    "react-dom": "^16.4.0"
   }
 }
