@@ -1,0 +1,53 @@
+{
+  "name": "gc-web",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.dev.js",
+    "dist": "webpack --config ./webpack.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "env",
+      "react"
+    ]
+  },
+  "sideEffects": [
+    "*.css"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-react": "^7.8.2",
+    "react-hot-loader": "^4.2.0",
+    "style-loader": "^0.21.0",
+    "uglifyjs-webpack-plugin": "^1.2.5",
+    "webpack": "^4.9.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-merge": "^4.1.2"
+  },
+  "dependencies": {
+    "apollo-boost": "^0.1.6",
+    "babel-polyfill": "^6.26.0",
+    "bootstrap": "^4.1.1",
+    "graphql": "^0.13.2",
+    "graphql-tag": "^2.9.2",
+    "moment": "^2.22.1",
+    "react": "^16.4.0",
+    "react-apollo": "^2.1.4",
+    "react-dom": "^16.4.0",
+    "reactstrap": "^6.0.1"
+  }
+}
