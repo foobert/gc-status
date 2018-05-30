@@ -6,6 +6,7 @@ import { hot } from "react-hot-loader";
 import { Dashboard } from "./dashboard";
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import "./app.css";
 
 const resolvers = {
   Query: {
