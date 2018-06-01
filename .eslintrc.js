@@ -8,5 +8,5 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: "module"
   },
-  rules: {}
+  rules: { no-console: false }
 };

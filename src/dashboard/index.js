@@ -45,7 +45,13 @@ export function Dashboard(props) {
           );
         }
 
-        const entries = checks.map(c => c(data));
+        let entries;
+        try {
+          entries = checks.map(c => c(data));
+        } catch (err) {
+          console.error(err);
+          entries = [{ title: "Status Website" }];
+        }
 
         return (
           <div>
