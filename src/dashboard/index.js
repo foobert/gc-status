@@ -23,8 +23,9 @@ export function Dashboard(props) {
               }
             }
             areas {
-              name
-              geocacheCount
+              lastUpdate
+            }
+            logs {
               lastUpdate
             }
           }
